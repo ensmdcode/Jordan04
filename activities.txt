@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Activities</title>
+    <style>
+	body {
+            background-image: url('yellow.jpg'); 
+            background-size: cover;  
+            background-position: center; 
+            font-family: Arial, sans-serif; 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #c48a0c;
+        }
+        td img, td video {
+            width: 100%;
+            height: auto;
+	    transition: transform 0.3s ease;
+        }
+        .description {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+	td img:hover {
+            transform: scale(1.2); s
+        }
+	
+    </style>
+</head>
+<body>
+
+    <h1>Activities of the Fourth Quarter</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>BOTB</th>
+                <th>Streetdance</th>
+                <th>Miting de Avance</th>
+                <th>One Act Play</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="botb1.jpg" alt="Image 2">
+                    <div class="description">Grade 9 students celebrating BOTB win</div>
+                </td>
+                <td>
+                    <img src="sd1.jpg" alt="Image 3">
+                    <div class="description">Family and Faith taking a group photo at the awardings.  </div>
+                </td>
+                <td>
+                    <img src="ma1.jpg" alt="Image 4">
+                    <div class="description">LIYAB party campaigning during the SSLG elections.</div>
+                </td>
+                <td>
+                    <img src="play1.jpg" alt="Image 5">
+                    <div class="description">The official poster of 9-Family's play. </div>
+                </td>
+                
+            </tr>
+
+            
+            <tr>
+                
+                <td>
+                    <img src="botb2.jpg" alt="Image 8">
+                    <div class="description">Six accepting the awards for best vocal, lead and rythm guitar.</div>
+                </td>
+                <td>
+                    <img src="sd2.jfif" alt="Image 9">
+                    <div class="description">Fairness and Fidelity taking a group photo before the performance.</div>
+                </td>
+                <td>
+                    <img src="ma2.jpg" alt="Image 10">
+                    <div class="description">Miting De Avance</div>
+                </td>
+                <td>
+                    <img src="play2.jpg" alt="Image 11">
+                    <div class="description">9-Family practicing the intro of the play.</div>
+                </td>
+                
+            </tr>
+
+            
+            <tr>
+                
+                <td>
+                    <img src="botb3.jfif" alt="Image 14">
+                    <div class="description">Me holding the banner of Six.</div>
+                </td>
+                <td>
+                    <img src="sd3.jpg" alt="Image 15">
+                    <div class="description">APEX after the performance</div>
+                </td>
+                <td>
+                    <img src="ma3.jpg" alt="Image 16">
+                    <div class="description">AGOS party campaigning during SSLG elections.</div>
+                </td>
+                <td>
+                    <img src="play3.jpg" alt="Image 17">
+                    <div class="description">9-Family practicing the play's outro.</div>
+                </td>
+                
+            </tr>
+
+            
+            
+        </tbody>
+    </table>
+
+
+</body>
+</html>
