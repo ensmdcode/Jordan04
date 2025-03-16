@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dowhile</title></head>
+<body>
+<script type="text/javascript">
+// 5 sec countdown for time bomb
+var x=0;
+do
+{
+    document.write(x);
+    document.write("<br/>");
+    x++;
+}
+while (x<7)
+document.write("Kaboom!");
+</script>
+</body>
+</html>
