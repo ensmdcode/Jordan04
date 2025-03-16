@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Switch</title>
+    <script type="text/javascript">
+        function bookcheck() {
+            var book = document.frmbook.cmbook.value;
+            switch (book) {
+                case "1": alert("J.R.R Tolkien"); break;
+                case "2": alert("C.S. Lewis"); break;
+                case "3": alert("J.K Rowling"); break;
+                case "4": alert("Mark Twain"); break;
+                default: alert("undetermined");
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>Select a book below to find the name of the author</p>
+    <form name="frmbook">
+        <select name="cmbook">
+            <option value="1">Lord of the Rings</option>
+            <option value="2">Chronicles of Narnia</option>
+            <option value="3">Harry Potter</option>
+            <option value="4">The Adventures of Huckleberry Finn</option>
+        </select>
+        <input type="button" name="combo" value="SUBMIT" onClick="bookcheck()">
+    </form>
+</body>
+</html>
